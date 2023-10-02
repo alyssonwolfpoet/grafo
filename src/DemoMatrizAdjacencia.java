@@ -1,4 +1,4 @@
-public class teste {
+public class DemoMatrizAdjacencia {
 
     public static void main(String[] args) {
         //montagem da matriz de adjacencia conforme o grafo
