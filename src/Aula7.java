@@ -1,19 +1,18 @@
 public class Aula7 {
     public static void main(String[] args) {
         int[][] graf = {
-                {0,1,0,-1,0},
-                {-1,0,1,0,1},
-                {0,-1,0,0,-1},
-                {1,0,0,0,0},
-                {0,-1,1,0,0}
+                {0, 1, 0, -1, 0},
+                {-1, 0, 1, 0, 1},
+                {0, -1, 0, 0, -1},
+                {1, 0, 0, 0, 0},
+                {0, -1, 1, 0, 0}
         };
 
-        for(int i=0;i<5;i++){
-            for(int j=0;j<5;j++){
-                if(graf[i][j]>0){
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                if (graf[i][j] > 0) {
                     System.out.print(i + "" + j + " = 1\t");
-                }
-                else{
+                } else {
                     System.out.print(i + "" + j + " = 0\t");
                 }
             }
@@ -21,37 +20,32 @@ public class Aula7 {
         }
         System.out.println();
 
-        int a=0,b=0,c=0,d=0,e=0, ae=0, be=0, ce=0, de=0, ee=0;
-        for(int i=0;i<5;i++){
-            for(int j=0;j<5;j++){
-                if((graf[i][j]>0) && (i==0)) {
+        int a = 0, b = 0, c = 0, d = 0, e = 0, ae = 0, be = 0, ce = 0, de = 0, ee = 0;
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+                if ((graf[i][j] > 0) && (i == 0)) {
                     a++;
-                }
-                else if((graf[i][j]<0) && (i==0)){
+                } else if ((graf[i][j] < 0) && (i == 0)) {
                     ae++;
                 }
-                if((graf[i][j]>0) && (i==1)) {
+                if ((graf[i][j] > 0) && (i == 1)) {
                     b++;
-                }
-                else if((graf[i][j]<0) && (i==1)){
+                } else if ((graf[i][j] < 0) && (i == 1)) {
                     be++;
                 }
-                if((graf[i][j]>0) && (i==2)) {
+                if ((graf[i][j] > 0) && (i == 2)) {
                     c++;
-                }
-                else if((graf[i][j]<0) && (i==2)){
+                } else if ((graf[i][j] < 0) && (i == 2)) {
                     ce++;
                 }
-                if((graf[i][j]>0) && (i==3)) {
+                if ((graf[i][j] > 0) && (i == 3)) {
                     d++;
-                }
-                else if((graf[i][j]<0) && (i==3)){
+                } else if ((graf[i][j] < 0) && (i == 3)) {
                     de++;
                 }
-                if((graf[i][j]>0) && (i==4)) {
+                if ((graf[i][j] > 0) && (i == 4)) {
                     e++;
-                }
-                else if((graf[i][j]<0) && (i==4)){
+                } else if ((graf[i][j] < 0) && (i == 4)) {
                     ee++;
                 }
             }

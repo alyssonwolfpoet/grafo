@@ -22,9 +22,9 @@ public class Tconexo {
                 adjMatrix[j][i] = adjMatrix[i][j];
             }
         }
-        for(int i=0; i<6; i++) {
-            for(int j=0; j<6; j++) {
-                if(adjMatrix[i][j] > 0) {
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                if (adjMatrix[i][j] > 0) {
                     System.out.print(i + "" + j + " = 1\t");
                 } else {
                     System.out.print(i + "" + j + " = 0\t");
