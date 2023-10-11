@@ -48,8 +48,7 @@ public class Q4a3 {
                 in += A[j][i];
             }
             // Calcular o grau do vértice i como a soma do in-grau e do out-grau
-            //G[i] = in + out;
-            G[i] = in;
+            G[i] = in + out;
         }
 
         // Imprimir a matriz A
