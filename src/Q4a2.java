@@ -1,4 +1,4 @@
-public class Q4a3 {
+public class Q4a2 {
     public static void main(String[] args) {
         // Definir o número de vértices do grafo
         int n = 6;

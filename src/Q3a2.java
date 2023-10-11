@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Q3a3 {
+public class Q3a2 {
     public static void main(String[] args) {
         // Definir os valores de m e n
         int m = 3; // Número de vértices em U
