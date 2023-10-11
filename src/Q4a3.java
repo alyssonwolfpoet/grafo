@@ -63,7 +63,7 @@ public class Q4a3 {
         // Imprimir o vetor G
         System.out.println("Graus dos vértices:");
         for (int i = 0; i < n; i++) {
-            System.out.println("Grau do vértice " + i + ": " + G[i]);
+            System.out.println("Grau do vértice " + i +" "+ Character.toString('a'+i) +" : " + G[i]);
         }
     }
 }
