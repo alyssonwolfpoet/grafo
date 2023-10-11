@@ -38,17 +38,17 @@ public class Q4a3 {
         for (int i = 0; i < n; i++) {
             // Inicializar o in-grau e o out-grau do vértice i como zero
             int in = 0;
-            int out = 0;
+            //int out = 0;
             // Percorrer a linha i da matriz A e somar os valores ao out-grau
-            for (int j = 0; j < n; j++) {
-                out += A[i][j];
-            }
+           // for (int j = 0; j < n; j++) {
+            //    out += A[i][j];
+            //}
             // Percorrer a coluna i da matriz A e somar os valores ao in-grau
             for (int j = 0; j < n; j++) {
                 in += A[j][i];
             }
             // Calcular o grau do vértice i como a soma do in-grau e do out-grau
-            G[i] = in + out;
+            G[i] = in;//+ out;
         }
 
         // Imprimir a matriz A
