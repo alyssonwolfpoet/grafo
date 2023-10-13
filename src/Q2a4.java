@@ -41,9 +41,13 @@ public class Q2a4 {
         GrafoIncidencia g = new GrafoIncidencia(9, 8);
         // Adiciona as arestas conforme o enunciado
         g.addAresta(0, 1, 0); // Primeira aresta entre o primeiro e o segundo nó
-        g.addAresta(0, 2, 1); // Segunda aresta entre o segundo e o terceiro nó
+        g.addAresta(4, 0, 2); // Segunda aresta entre o segundo e o terceiro nó
         g.addAresta(0, 3, 2); // Terceira aresta entre o terceiro e o quinto nó
         g.addAresta(0, 4, 3); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(1, 5, 4); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(1, 6, 5); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(3, 7, 6); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(4, 8, 7); // Quarta aresta entre o quarto e o segundo nó
         // Imprime a matriz de incidência
         g.printMatriz();
     }
@@ -51,9 +55,14 @@ public class Q2a4 {
     
     /*
       Saída esperada:
-      1 0 0 0 
-      1 1 0 1 
-      0 1 1 0 
-      0 0 0 1 
-      0 0 1 0 
+      1 0 1 1 0 0 0 0
+      1 0 0 0 1 1 0 0
+      0 0 0 0 0 0 0 0
+      0 0 1 0 0 0 1 0
+      0 0 1 1 0 0 0 1
+      0 0 0 0 1 0 0 0
+      0 0 0 0 0 1 0 0
+      0 0 0 0 0 0 1 0
+      0 0 0 0 0 0 0 1
+
     */
