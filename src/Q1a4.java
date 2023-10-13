@@ -22,6 +22,7 @@ public class Q1a4 {
         // Fechar o scanner
         sc.close();
 
+        // impressão da matriz
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
                 if (adj[i][j] > 0) {
@@ -34,6 +35,7 @@ public class Q1a4 {
         }
         System.out.println();
 
+        // variáveis para graus
         int a = 0, b = 0, c = 0, d = 0, e = 0 , f = 0, ae = 0, be = 0, ce = 0, de = 0, ee = 0, fe = 0;
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
