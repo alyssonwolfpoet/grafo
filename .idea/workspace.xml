@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: Q2a4 intermedio de codigo para continuar a acrecestar as ligacoes">
+    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: Q2a4 completo com todas as ligações e imprecoes">
+      <change afterPath="$PROJECT_DIR$/src/Q4a4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Q2a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2a4.java" afterDir="false" />
     </list>
@@ -35,17 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Alysson/IdeaProjects/grafo/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alysson\IdeaProjects\grafo\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Q1a4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q1a4" />
@@ -117,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697236878427</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Q2a4 completo com todas as ligações e imprecoes">
+      <option name="closed" value="true" />
+      <created>1697239686813</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697239686813</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +142,7 @@
     <MESSAGE value="feat: modificaçoes para ler a matriz e impresao dos 6 no" />
     <MESSAGE value="feat: matrix com sequencia" />
     <MESSAGE value="feat: Q2a4 intermedio de codigo para continuar a acrecestar as ligacoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Q2a4 intermedio de codigo para continuar a acrecestar as ligacoes" />
+    <MESSAGE value="feat: Q2a4 completo com todas as ligações e imprecoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Q2a4 completo com todas as ligações e imprecoes" />
   </component>
 </project>
