@@ -1,17 +1,30 @@
+import java.util.Scanner;
+
 public class Q1a4 {
     public static void main(String[] args) {
-        int[][] graf = {
-                {0, 1, 0, -1, 0, 0},
-                {-1, 0, 1, 0, 1, 0},
-                {0, -1, 0, 0, -1, 0},
-                {1, 0, 0, 0, 0, 0},
-                {0, -1, 1, 0, 0, 0},
-                {0, -1, 0, 1, -1, 0},
-        };
+        // Criar um scanner para ler a entrada do usuário
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < 5; i++) {
+        // Definir o tamanho da matriz de adjacência
+        int n = 6;
+
+        // Criar uma matriz de adjacência nxn
+        int[][] adj = new int[n][n];
+
+        // Ler a matriz de adjacência do usuário
+        System.out.println("Digite a matriz de adjacência de um grafo dirigido de " + n + " nós:");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                adj[i][j] = sc.nextInt();
+            }
+        }
+
+        // Fechar o scanner
+        sc.close();
+
+        for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 5; j++) {
-                if (graf[i][j] > 0) {
+                if (adj[i][j] > 0) {
                     System.out.print(i + "" + j + " = 1\t");
                 } else {
                     System.out.print(i + "" + j + " = 0\t");
@@ -24,29 +37,29 @@ public class Q1a4 {
         int a = 0, b = 0, c = 0, d = 0, e = 0, ae = 0, be = 0, ce = 0, de = 0, ee = 0;
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                if ((graf[i][j] > 0) && (i == 0)) {
+                if ((adj[i][j] > 0) && (i == 0)) {
                     a++;
-                } else if ((graf[i][j] < 0) && (i == 0)) {
+                } else if ((adj[i][j] < 0) && (i == 0)) {
                     ae++;
                 }
-                if ((graf[i][j] > 0) && (i == 1)) {
+                if ((adj[i][j] > 0) && (i == 1)) {
                     b++;
-                } else if ((graf[i][j] < 0) && (i == 1)) {
+                } else if ((adj[i][j] < 0) && (i == 1)) {
                     be++;
                 }
-                if ((graf[i][j] > 0) && (i == 2)) {
+                if ((adj[i][j] > 0) && (i == 2)) {
                     c++;
-                } else if ((graf[i][j] < 0) && (i == 2)) {
+                } else if ((adj[i][j] < 0) && (i == 2)) {
                     ce++;
                 }
-                if ((graf[i][j] > 0) && (i == 3)) {
+                if ((adj[i][j] > 0) && (i == 3)) {
                     d++;
-                } else if ((graf[i][j] < 0) && (i == 3)) {
+                } else if ((adj[i][j] < 0) && (i == 3)) {
                     de++;
                 }
-                if ((graf[i][j] > 0) && (i == 4)) {
+                if ((adj[i][j] > 0) && (i == 4)) {
                     e++;
-                } else if ((graf[i][j] < 0) && (i == 4)) {
+                } else if ((adj[i][j] < 0) && (i == 4)) {
                     ee++;
                 }
             }
