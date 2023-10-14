@@ -1,3 +1,5 @@
+obs: nas questoes que solicitar a entrada da matriz digite linha por linha
+
 0 0 0 0 1 0
 0 0 1 0 0 -1
 0 -1 0 0 0 -1

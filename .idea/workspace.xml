@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: coreção de comentarios da saida do codigo">
+    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: grafo adjacencia com entrada e saida">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q3a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3a4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/matrix teste.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/matrix teste.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697241994071</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: grafo adjacencia com entrada e saida">
+      <option name="closed" value="true" />
+      <created>1697320606430</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1697320606430</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +185,7 @@
     <MESSAGE value="ide" />
     <MESSAGE value="feat: coreção de comentarios e addcioando dois codigos" />
     <MESSAGE value="feat: coreção de comentarios da saida do codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: coreção de comentarios da saida do codigo" />
+    <MESSAGE value="feat: grafo adjacencia com entrada e saida" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: grafo adjacencia com entrada e saida" />
   </component>
 </project>
