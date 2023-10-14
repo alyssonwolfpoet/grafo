@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: coreção de comentarios e addcioando dois codigos">
+    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: coreção de comentarios da saida do codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q2a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2a4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q4a4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q3a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3a4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Alysson/IdeaProjects/grafo/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alysson/IdeaProjects/grafo/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alysson\IdeaProjects\grafo\src" />
@@ -156,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697241763396</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: coreção de comentarios da saida do codigo">
+      <option name="closed" value="true" />
+      <created>1697241994071</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697241994071</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +176,7 @@
     <MESSAGE value="feat: fix a conecção da segunda aresta" />
     <MESSAGE value="ide" />
     <MESSAGE value="feat: coreção de comentarios e addcioando dois codigos" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: coreção de comentarios e addcioando dois codigos" />
+    <MESSAGE value="feat: coreção de comentarios da saida do codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: coreção de comentarios da saida do codigo" />
   </component>
 </project>
