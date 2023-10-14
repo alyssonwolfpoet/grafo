@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="ide">
-      <change afterPath="$PROJECT_DIR$/src/Q3a4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q4a4.java" afterDir="false" />
+    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: coreção de comentarios e addcioando dois codigos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Q2a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2a4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q4a4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q4a4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697240438294</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: coreção de comentarios e addcioando dois codigos">
+      <option name="closed" value="true" />
+      <created>1697241763396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697241763396</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +168,7 @@
     <MESSAGE value="feat: Q2a4 completo com todas as ligações e imprecoes" />
     <MESSAGE value="feat: fix a conecção da segunda aresta" />
     <MESSAGE value="ide" />
-    <option name="LAST_COMMIT_MESSAGE" value="ide" />
+    <MESSAGE value="feat: coreção de comentarios e addcioando dois codigos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: coreção de comentarios e addcioando dois codigos" />
   </component>
 </project>
