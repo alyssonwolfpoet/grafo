@@ -1,12 +1,12 @@
 // Classe que representa um grafo
-class GrafoIncidencia {
+class GrafoIncidencia2 {
     // Número de vértices e arestas
     int n, m;
     // Matriz de incidência
     int[][] matriz;
 
     // Construtor que recebe o número de vértices e arestas
-    public GrafoIncidencia(int n, int m) {
+    public GrafoIncidencia2(int n, int m) {
         this.n = n;
         this.m = m;
         // Cria uma matriz n x m com todos os elementos iguais a zero
@@ -32,13 +32,32 @@ class GrafoIncidencia {
             System.out.println();
         }
     }
+
+    // Método que conta o grau de cada nó do grafo
+    public void contarGraus() {
+        // Cria um vetor para armazenar os graus dos nós
+        int[] graus = new int[n];
+        // Percorre a matriz de incidência somando os valores de cada linha
+        for (int i = 0; i < n; i++) {
+            int soma = 0;
+            for (int j = 0; j < m; j++) {
+                soma += matriz[i][j];
+            }
+            // Armazena o grau do nó i no vetor
+            graus[i] = soma;
+        }
+        // Imprime os graus dos nós
+        for (int i = 0; i < n; i++) {
+            System.out.println("O grau do nó " + i + " é " + graus[i]);
+        }
+    }
 }
 
 // Classe principal para testar o código
-public class Q2a4 {
+public class Q4a4 {
     public static void main(String[] args) {
         // Cria um grafo com 9 vértices e 8 arestas
-        GrafoIncidencia g = new GrafoIncidencia(9, 8);
+        GrafoIncidencia2 g = new GrafoIncidencia2(9, 8);
         // Adiciona as arestas conforme o enunciado
         g.addAresta(0, 1, 0); // Primeira aresta entre o primeiro e o Segundo nó
         g.addAresta(0, 2, 1); // Segunda aresta entre o Primeiro e o Terceiro nó
@@ -50,6 +69,8 @@ public class Q2a4 {
         g.addAresta(4, 8, 7); // Oitava aresta entre o Quinto e o Nono nó
         // Imprime a matriz de incidência
         g.printMatriz();
+        // Conta os graus dos nós do grafo
+        g.contarGraus();
     }
 }
     
