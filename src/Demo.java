@@ -203,6 +203,6 @@ public class Main {
         grafo.adicionarAresta(0, 1, 4);
         grafo.adicionarAresta(0, 7, 8);
         grafo.adicionarAresta(1, 2, 8);
-        grafo.adicionarAresta(1, 7, 8
+        grafo.adicionarAresta(1, 7, 8);
     }
 }

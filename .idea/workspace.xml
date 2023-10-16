@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: documento de matrix com obs">
-      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f3c62428-7b5e-4aa3-a0bf-a7b20d86de51" name="Changes" comment="feat: codigo de teste para estudar">
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697322093514</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: codigo de teste para estudar">
+      <option name="closed" value="true" />
+      <created>1697417574550</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697417574550</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,6 +202,7 @@
     <MESSAGE value="feat: coreção de comentarios da saida do codigo" />
     <MESSAGE value="feat: grafo adjacencia com entrada e saida" />
     <MESSAGE value="feat: documento de matrix com obs" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: documento de matrix com obs" />
+    <MESSAGE value="feat: codigo de teste para estudar" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: codigo de teste para estudar" />
   </component>
 </project>
