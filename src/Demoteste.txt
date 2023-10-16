@@ -193,7 +193,7 @@ class Pair<K, V> {
 }
 
 // Classe principal com o método main
-public class Main {
+public class Demoteste {
 
     public static void main(String[] args) {
 
