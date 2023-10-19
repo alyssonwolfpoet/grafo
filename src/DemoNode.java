@@ -19,7 +19,7 @@ class Node {
 }
 
 // Classe principal que contém o método principal
-public class Main {
+public class DemoNode {
 
     // Método para encontrar o número de folhas em uma árvore
     public static int countLeaves(Node root) {

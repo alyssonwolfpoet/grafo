@@ -18,12 +18,12 @@ class Aresta implements Comparable<Aresta> {
 }
 
 // Classe que representa um grafo com vértices e arestas
-class Grafo {
+class Grafotest {
     int vertices; // Número de vértices do grafo
     LinkedList<Aresta> arestas; // Lista de arestas do grafo
 
     // Construtor da classe
-    public Grafo(int vertices) {
+    public Grafotest(int vertices) {
         this.vertices = vertices;
         arestas = new LinkedList<>();
     }
@@ -35,8 +35,8 @@ class Grafo {
     }
 
     // Método para encontrar a árvore geradora mínima usando o algoritmo de Kruskal
-    public Grafo kruskal() {
-        Grafo mst = new Grafo(vertices); // Cria um novo grafo para armazenar a árvore geradora mínima
+    public Grafotest kruskal() {
+        Grafotest mst = new Grafotest(vertices); // Cria um novo grafo para armazenar a árvore geradora mínima
         int[] pai = new int[vertices]; // Cria um vetor para armazenar o pai de cada vértice
 
         // Inicializa o vetor de pais com -1, indicando que todos os vértices são raízes
@@ -85,8 +85,8 @@ class Grafo {
     }
 
     // Método para encontrar a árvore geradora mínima usando o algoritmo de Prim
-    public Grafo prim() {
-        Grafo mst = new Grafo(vertices); // Cria um novo grafo para armazenar a árvore geradora mínima
+    public Grafotest prim() {
+        Grafotest mst = new Grafotest(vertices); // Cria um novo grafo para armazenar a árvore geradora mínima
         boolean[] visitado = new boolean[vertices]; // Cria um vetor para marcar os vértices visitados
         int[] chave = new int[vertices]; // Cria um vetor para armazenar a chave de cada vértice (o menor peso das arestas incidentes nele)
         int[] pai = new int[vertices]; // Cria um vetor para armazenar o pai de cada vértice na árvore geradora mínima
@@ -197,12 +197,12 @@ public class Demoteste {
 
     public static void main(String[] args) {
 
-        Grafo grafo = new Grafo(9); // Cria um grafo com 9 vértices
+        Grafotest grafotest = new Grafotest(9); // Cria um grafo com 9 vértices
 
         // Adiciona as arestas ao grafo com os respectivos pesos
-        grafo.adicionarAresta(0, 1, 4);
-        grafo.adicionarAresta(0, 7, 8);
-        grafo.adicionarAresta(1, 2, 8);
-        grafo.adicionarAresta(1, 7, 8);
+        grafotest.adicionarAresta(0, 1, 4);
+        grafotest.adicionarAresta(0, 7, 8);
+        grafotest.adicionarAresta(1, 2, 8);
+        grafotest.adicionarAresta(1, 7, 8);
     }
 }
