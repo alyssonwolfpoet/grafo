@@ -47,24 +47,19 @@ class Grafo3 {
 class Q1a6 {
     public static void main(String[] args) {
         Grafo3 g = new Grafo3(7,12);
-        g.addAresta(0, 0, 0,5); // Primeira aresta entre o primeiro e o segundo nó
-        g.addAresta(0, 1, 1,3); // Segunda aresta entre o segundo e o terceiro nó
-        g.addAresta(1, 2, 2,4); // Terceira aresta entre o terceiro e o quinto nó
-        g.addAresta(1, 3, 3,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(2, 3, 4,5); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(1, 4, 5,2); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(2, 5, 6,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(3, 4, 7,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(3, 5, 8,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(4, 5, 9,3); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(4, 6, 10,5); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(5, 6, 11,4); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(0, 1, 0,5); // Primeira aresta entre o primeiro e o Segundo nó
+        g.addAresta(0, 2, 1,3); // Segunda aresta entre o Primeiro e o Terceiro nó
+        g.addAresta(1, 2, 2,4); // Terceira aresta entre o Segundo e o Terceiro nó
+        g.addAresta(1, 3, 3,6); // Quarta aresta entre o Segunda e o Quarto nó
+        g.addAresta(2, 3, 4,5); // Quinta aresta entre o Terceiro e o quarto nó
+        g.addAresta(1, 4, 5,2); // Sexta aresta entre o Segundo e o Quinto nó
+        g.addAresta(2, 5, 6,6); // Setima aresta entre o Terceiro e o Sexto nó
+        g.addAresta(3, 4, 7,6); // Oitava aresta entre o Quarto e o Quinto nó
+        g.addAresta(3, 5, 8,6); // Nona aresta entre o Quarto e o Sexto nó
+        g.addAresta(4, 5, 9,3); // Decima aresta entre o Quinto e o Sexto nó
+        g.addAresta(4, 6, 10,5); // Decima Primeira aresta entre o Quinto e o Setimo nó
+        g.addAresta(5, 6, 11,4); // Decima Segunda aresta entre o Sexto e o Setimo nó
         g.printMatriz();
-
-        for (int i = 0; i < g.vertices.length; i++) {
-            System.out.print(g.vertices[i]);
-        }
-
 
     }
 }
