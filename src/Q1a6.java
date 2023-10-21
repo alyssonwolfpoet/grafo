@@ -51,15 +51,15 @@ class Q1a6 {
         g.addAresta(0, 0, 0,5); // Primeira aresta entre o primeiro e o segundo nó
         g.addAresta(1, 0, 1,2); // Segunda aresta entre o segundo e o terceiro nó
         g.addAresta(2, 1, 2,4); // Terceira aresta entre o terceiro e o quinto nó
-        g.addAresta(3, 1, 0,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(4, 0, 0,5); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(5, 0, 0,2); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(6, 0, 0,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(7, 0, 0,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(8, 0, 0,6); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(9, 0, 0,3); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(10, 0, 0,5); // Quarta aresta entre o quarto e o segundo nó
-        g.addAresta(11, 0, 0,4); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(3, 1, 3,6); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(4, 2, 3,5); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(5, 1, 4,2); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(6, 2, 5,6); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(7, 3, 4,6); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(8, 3, 5,6); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(9, 4, 5,3); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(10, 4, 6,5); // Quarta aresta entre o quarto e o segundo nó
+        g.addAresta(11, 5, 6,4); // Quarta aresta entre o quarto e o segundo nó
         g.printMatriz();
 
 
