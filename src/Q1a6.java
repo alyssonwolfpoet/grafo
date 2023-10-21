@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 
 class Grafo3 {
     int n;
@@ -37,7 +36,7 @@ class Grafo3 {
     public void printMatriz() {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                System.out.print(Character.toString(97+i)+""+j +'='+matriz[i][j] +"["+ this.vertices[j]+"]"+" ");
+                System.out.print(Character.toString(97+i)+j +'='+matriz[i][j] +"["+ this.vertices[j]+"]"+" ");
             }
             System.out.println();
         }
